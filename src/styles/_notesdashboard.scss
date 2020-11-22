@@ -1,0 +1,13 @@
+.notes-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: $l-size;
+  padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .notes-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: $l-size;
+  }
+}

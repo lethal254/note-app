@@ -1,0 +1,15 @@
+.addnote-form {
+  margin-top: $l-size;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .addnote-form-title {
+    margin-bottom: $m-size;
+    width: 70%;
+  }
+  .addnote-form-note {
+    margin-bottom: $m-size;
+    width: 70%;
+  }
+}
